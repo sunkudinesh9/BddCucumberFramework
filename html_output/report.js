@@ -1,0 +1,117 @@
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("F:/java ide photon/BddCucumberFramework/src/main/java/com/accenture/cucumber/BddCucumberFramework/feature/login.feature");
+formatter.feature({
+  "line": 1,
+  "name": "Free CRM Login Feature",
+  "description": "",
+  "id": "free-crm-login-feature",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 4,
+      "value": "#without Examples Keyword"
+    }
+  ],
+  "line": 5,
+  "name": "Free CRM Login Test Scenario",
+  "description": "",
+  "id": "free-crm-login-feature;free-crm-login-test-scenario",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 7,
+  "name": "user is already on Login Page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 8,
+  "name": "title of login page is Free CRM",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "user enters \"9000370275\" and \"Dinesh123@\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 10,
+  "name": "user clicks on login button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 11,
+  "name": "user is on home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 12,
+  "name": "user click on logout",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 13,
+  "name": "close the browser",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginStepDefinition.user_is_already_in_login_page()"
+});
+formatter.result({
+  "duration": 10821862300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDefinition.page_title_is_CRM()"
+});
+formatter.result({
+  "duration": 13455100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "9000370275",
+      "offset": 13
+    },
+    {
+      "val": "Dinesh123@",
+      "offset": 30
+    }
+  ],
+  "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
+});
+formatter.result({
+  "duration": 254973200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDefinition.user_clicks_on_login_button()"
+});
+formatter.result({
+  "duration": 24801768600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDefinition.user_is_on_hopme_page()"
+});
+formatter.result({
+  "duration": 112556500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDefinition.user_click_on_logout()"
+});
+formatter.result({
+  "duration": 207990000,
+  "error_message": "org.openqa.selenium.WebDriverException: unknown error: Element \u003cdiv class\u003d\"_6qfu _5lxt\" id\u003d\"userNavigationLabel\"\u003e...\u003c/div\u003e is not clickable at point (998, 21). Other element would receive the click: \u003cdiv class\u003d\"_3ixn\"\u003e\u003c/div\u003e\n  (Session info: chrome\u003d77.0.3865.120)\n  (Driver info: chromedriver\u003d2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform\u003dWindows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027NAVEED\u0027, ip: \u0027192.168.0.118\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_162\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\\Users\\HP\\AppData\\Local\\T...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53284}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.120, webStorageEnabled: true}\nSession ID: 1a5c7c4c4fa40b69b6e4a9f85a7e1a08\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat com.accenture.cucumberBddFramework.defination.LoginStepDefinition.user_click_on_logout(LoginStepDefinition.java:52)\r\n\tat ✽.Then user click on logout(F:/java ide photon/BddCucumberFramework/src/main/java/com/accenture/cucumber/BddCucumberFramework/feature/login.feature:12)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "LoginStepDefinition.close_the_browser()"
+});
+formatter.result({
+  "status": "skipped"
+});
+});

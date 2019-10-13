@@ -10,7 +10,11 @@ import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
 @CucumberOptions(features = "F:\\java ide photon\\BddCucumberFramework\\src\\main\\java\\com\\accenture\\cucumber\\BddCucumberFramework\\feature\\login.feature", glue = {
-		"com.accenture.cucumberBddFramework.defination" },dryRun=false)
+		"com.accenture.cucumberBddFramework.defination" },
+		dryRun=false,
+		strict=false,
+		format= {"pretty", "html:html_output", "json:json_output/cucumber.json"},
+		monochrome = true)
 public class TestRunner {
 	private TestNGCucumberRunner testNGCucumberRunner;
 

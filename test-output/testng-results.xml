@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44015" started-at="2019-10-13T17:58:36 IST" finished-at="2019-10-13T17:59:20 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.accenture.cucumberBddFramework.testrunner.TestRunner@30b8a058]" name="feature" class="com.accenture.cucumberBddFramework.testrunner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="44015" started-at="2019-10-13T17:58:36 IST" finished-at="2019-10-13T17:59:20 IST">
+      <class name="com.accenture.cucumberBddFramework.testrunner.TestRunner">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.accenture.cucumberBddFramework.testrunner.TestRunner@30b8a058]" name="setUp" is-config="true" duration-ms="153" started-at="2019-10-13T17:58:36 IST" finished-at="2019-10-13T17:58:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.accenture.cucumberBddFramework.testrunner.TestRunner@30b8a058]" name="feature" duration-ms="43779" started-at="2019-10-13T17:58:36 IST" description="cucumber feature" data-provider="features" finished-at="2019-10-13T17:59:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Free CRM Login Feature]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClss()[pri:0, instance:com.accenture.cucumberBddFramework.testrunner.TestRunner@30b8a058]" name="tearDownClss" is-config="true" duration-ms="3" started-at="2019-10-13T17:59:20 IST" finished-at="2019-10-13T17:59:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClss -->
+      </class> <!-- com.accenture.cucumberBddFramework.testrunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [BDD Test Suit]" parallel="tests">
+  <test thread-count="5" name="BDD Test Suit(failed)" parallel="tests">
+    <classes>
+      <class name="com.accenture.cucumberBddFramework.testrunner.TestRunner">
+        <methods>
+          <include name="setUp"/>
+          <include name="feature"/>
+          <include name="tearDownClss"/>
+        </methods>
+      </class> <!-- com.accenture.cucumberBddFramework.testrunner.TestRunner -->
+    </classes>
+  </test> <!-- BDD Test Suit(failed) -->
+</suite> <!-- Failed suite [BDD Test Suit] -->
